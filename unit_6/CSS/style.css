@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Muli');
+
+body {
+	background-color: (255,0,0);
+	font-size: 100%	
+}
+
+nav {;
+	padding: 10px;
+}
+
+header {
+	padding: 10%;
+	padding-top: 10%;
+	text-align: center;
+}
+
+footer{
+	padding: 20px;
+	text-align: center;
+}
+
+h4{
+	color: #2A7A77;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 3.0em	
+
+}
+
+content{
+	text-align: center;
+}
+
+h3{
+	font-family: 'Lora', serif;
+	font-size: 2.5em
+}
+
+.Hi{
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 2em
+}
+
+.contact_picture{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+}
+
+#what-i-do{
+	padding: 5%;
+	padding-bottom: 0.5%; 
+}
+
+#my-work{
+	padding: 5%;
+	padding-bottom: 0.5%; 
+}
+
+.Listheading{
+	font-family: 'Muli', serif;
+	color: #2A7A77;
+	font-size: 1.5em
+}
+
+.column{
+	padding: 20px;
+	width: 28%;
+	height: 300px;
+	float: left;
+	margin: 10px;
+}
+
+#column1{
+	background-color: #AC54FF;
+}
+
+#column2{
+	background-color: #5485FF;
+}
+
+#column3{
+	background-color: #47FFF2;
+}
+
+#example1{
+	background-color: #AC54FF;
+}
+
+#example2{
+	background-color: #5485FF;
+}
+
+#example3{
+	background-color: #47FFF2;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#email{
+	font-family: 'Muli', sans-serif;
+	color: #7E7B7F;
+	font-size: 1em
+
+}
+#intro_copy{
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 1.3em	
+}
