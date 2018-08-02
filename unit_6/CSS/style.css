@@ -1,29 +1,42 @@
+
 @import url('https://fonts.googleapis.com/css?family=Lora|Muli');
 
-body {
-	background-color: (255,0,0);
-	font-size: 100%	
+* {margin:0;padding:0;box-sizing:border-box;}
+
+.wrapper{
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 2em;
+	padding-top: 0em;
 }
 
-nav {;
-	padding: 10px;
+.nav{
+	list-style: none;
+	text-align: center;	
+	padding-top: 1em;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	text-decoration: none;
+	width: 10%;
+	color: rgba(135,191,190, 0.8);
+	font-family: 'Muli', sans-serif;
 }
 
 header {
-	padding: 10%;
-	padding-top: 10%;
+	padding: 2em;
 	text-align: center;
+	margin: auto;
 }
 
 footer{
+	height: 300px;
 	padding: 20px;
-	text-align: center;
-}
-
-h4{
-	color: #2A7A77;
-	font-family: 'Muli', sans-serif;
-	font-weight: 300;
 	text-align: center;
 }
 
@@ -31,77 +44,96 @@ h1{
 	font-family: 'Lora', serif;
 	text-align: center;
 	font-size: 3.0em	
-
 }
 
-content{
-	text-align: center;
-}
-
-h3{
+h2{
 	font-family: 'Lora', serif;
 	font-size: 2.5em
 }
 
-.Hi{
+h3{
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	color: rgba(135,191,190, 0.8);
+}
+
+p{
+	font-family: 'Muli', sans-serif;
+	padding-top: 1em;
+}
+
+.hello-section{
+	padding: 15%;
+	width: 70%;
+	margin: auto;
+}
+
+.section-header{
+	padding-top: 1em;
+}
+
+#intro_copy{
 	font-family: 'Lora', serif;
 	text-align: center;
-	font-size: 2em
-}
-
-.contact_picture{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 13%;
-}
-
-#what-i-do{
-	padding: 5%;
-	padding-bottom: 0.5%; 
-}
-
-#my-work{
-	padding: 5%;
-	padding-bottom: 0.5%; 
+	font-size: 1.3em	
 }
 
 .Listheading{
-	font-family: 'Muli', serif;
-	color: #2A7A77;
+	font-family: 'Lora', serif;
+	color: #ffff;
 	font-size: 1.5em
 }
 
 .column{
-	padding: 20px;
-	width: 28%;
+	padding: 2em;
+	width: 33.3%;
 	height: 300px;
 	float: left;
-	margin: 10px;
+	background-color: powderblue;
 }
 
-#column1{
-	background-color: #AC54FF;
+
+#email{
+	font-family: 'Muli', sans-serif;
+	color: #7E7B7F;
+	font-size: 1em
 }
 
-#column2{
-	background-color: #5485FF;
+
+#get-in-touch{
+	text-align: right;
 }
 
-#column3{
-	background-color: #47FFF2;
+.what-i-do{
+
 }
 
-#example1{
-	background-color: #AC54FF;
+#footerheading{
+	font-family: 'Lora', serif;
+	font-size: 1.25em;
+	padding: 2.25% 1% 3% 0%;
 }
 
-#example2{
-	background-color: #5485FF;
+#footerp{
+	padding-left: 20%;
 }
 
-#example3{
-	background-color: #47FFF2;
+.text_footer{
+	text-align:	right;
+	width: 70%;
+	height: 265px;
+	padding: 2em;
+	float: left;
+	background-color: rgba(135,191,190, 0.6);
+}
+
+.footer_image{
+	width: 30%;
+	float: left;
+}
+
+#email{
+	text-decoration: none;
 }
 
 .clearfix:after {
@@ -111,16 +143,4 @@ h3{
     content: " ";
     clear: both;
     height: 0;
-}
-
-#email{
-	font-family: 'Muli', sans-serif;
-	color: #7E7B7F;
-	font-size: 1em
-
-}
-#intro_copy{
-	font-family: 'Lora', serif;
-	text-align: center;
-	font-size: 1.3em	
 }
