@@ -12,6 +12,7 @@ body{
 	padding-right: 7em;
 	padding-bottom: 0em;
 	padding-top: 0em;
+	max-width: 100em;
 }
 
 .nav{
@@ -64,7 +65,7 @@ h3{
 
 h4{
 	font-family: 'Lora', serif;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 p{
@@ -87,7 +88,7 @@ p{
 #intro_copy{
 	font-family: 'Lora', serif;
 	text-align: center;
-	font-size: 1.5em
+	font-size: 2em
 }
 
 .Listheading{
@@ -102,7 +103,6 @@ p{
 	width: 33.3%;
 	height: 25em;
 	float: left;
-	max-width: 30em;
 }
 
 .columntext{
@@ -145,6 +145,7 @@ p{
 	text-align: right;
 }
 
+
 .footercontent{
 	background-color: rgba(135,191,190, 0.6);
 	width: 100%;
@@ -154,8 +155,14 @@ p{
 .footerp{
 	float: left;
 	width: 70%;
-	padding: 5em 2em 0em 10em;
+	padding: 4em 2em 4em 10em;
 	text-align: right;
+}
+
+.emailtag{
+	color: black;
+	font-size: 2em;
+	text-decoration: underline;
 }
 
 #footerimage{
@@ -186,6 +193,7 @@ p{
 	.wrapper{
 		padding-left: 0em;
 		padding-right: 0em;
+		max-width: 100%;
 	}
 	.footerp{
 		float: none;
@@ -199,8 +207,7 @@ p{
 		float: none;
 		width: 100%;
 		margin: 0em;
-		max-width: 100%;
-	}
+		}
 	.hello-section{
 		padding: 5%;
 		width: 100%;
