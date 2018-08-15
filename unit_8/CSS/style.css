@@ -13,6 +13,7 @@ body{
 	padding-bottom: 0em;
 	padding-top: 0em;
 	max-width: 100em;
+	margin: auto;
 }
 
 .nav{
@@ -59,7 +60,7 @@ h2{
 
 h3{
 	font-family: 'Muli', sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: rgba(135,191,190, 0.6);
 }
 
@@ -70,8 +71,8 @@ h4{
 
 p{
 	font-family: 'Muli', sans-serif;
-	padding-top: 1em;
-	font-size: 1.5em;
+	padding-top: 0em;
+	font-size: 1.3em;
 
 }
 
@@ -94,7 +95,7 @@ p{
 .Listheading{
 	font-family: 'Lora', serif;
 	color: #FFFFFF;
-	font-size: 3.5em;
+	font-size: 3.7em;
 	font-weight: 200;
 }
 
@@ -105,23 +106,36 @@ p{
 	float: left;
 }
 
+.column{
+	padding: 7em 5.9em 2em 2em;
+	width: 50%;
+	height: 25em;
+	float: left;
+}
+
+
 .columntext{
 	color: white;
 	font-weight: 100;
 }
 
 #column1{
-	background-image: url("../images/concept1.jpg");
+	background-image: url("../images/concept5.jpg");
 	background-size: cover;
 }
 
 #column2{
-	background-image: url("../images/design1.jpg");
+	background-image: url("../images/design2.jpg");
 	background-size: cover;
 }
 
 #column3{
 	background-image: url("../images/build1.jpg");
+	background-size: cover;
+}
+
+#column4{
+	background-image: url("../images/maintain.jpg");
 	background-size: cover;
 }
 
@@ -138,6 +152,7 @@ p{
 #example3{
 	background-image: url("../images/example31.jpg");
 	background-size: contain;
+	width: 100%;
 }
 
 
@@ -179,21 +194,37 @@ p{
     height: 0;
 }
 
+.footercontent p{
+	padding-top: 1em;
+	padding-left: 7em;
+}
+
 @media only screen and (max-width: 1000px) {
-	body{
-		font-size: 11px;
-	}
+	
 	.wrapper{
 		padding-left: 4em;
 		padding-right: 4em;
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
+	.footerp{
+		padding: 4em 2em 3em 2em;
+	}
+	.hello-section{
+		width: 80%;
+		padding: 10%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
 	.wrapper{
-		padding-left: 0em;
-		padding-right: 0em;
-		max-width: 100%;
+		padding-left: 4em;
+		padding-right: 4em;
+		padding-bottom: 0em;
+		padding-top: 0em;
+		max-width: 100em;
+		margin: auto;
 	}
 	.footerp{
 		float: none;
@@ -208,15 +239,29 @@ p{
 		width: 100%;
 		margin: 0em;
 		}
+
 	.hello-section{
 		padding: 5%;
 		width: 100%;
 		margin: auto;
 	}
+
+	#footerimage{
+		display:none;
+	}
+
+	p{
+		font-size: 1.5em;
+	}
 }
 
+@media only screen and (max-width: 550px) {
+		.wrapper{
+			padding-left: 0em;
+			padding-right: 0em;
+			max-width: 100%;
+		}
+
 @media only screen and (min-width: 600px) and (max-width: 800px) {
-	body{
-		font-size: 9px;
-	}
+	
 }
