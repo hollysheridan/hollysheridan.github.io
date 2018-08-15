@@ -142,17 +142,23 @@ p{
 #example1{
 	background-image: url("../images/example11.jpg");
 	background-size: cover;
+	text-align: center;
+	padding: 7em 3em 2em 3em;
 }
 
 #example2{
 	background-image: url("../images/example21.jpg");
 	background-size: cover;
+	text-align: center;
+	padding: 7em 3em 2em 3em;
 }
 
 #example3{
 	background-image: url("../images/example31.jpg");
 	background-size: contain;
 	width: 100%;
+	text-align: center;
+	padding: 7em 17em 2em 17em;
 }
 
 
@@ -252,6 +258,10 @@ p{
 
 	p{
 		font-size: 1.5em;
+	}
+
+	#example3{
+		padding: 7em 3em 2em 3em;
 	}
 }
 
